@@ -17,7 +17,7 @@ public class Professor extends Pessoa {
     }
 
     @Override
-    protected String obterProfissao() {
-        return "professor de " + disciplina;
+    public void apresentar() {
+        System.out.println("Sou " + nome + ", professor de " + disciplina + ".");
     }
 }

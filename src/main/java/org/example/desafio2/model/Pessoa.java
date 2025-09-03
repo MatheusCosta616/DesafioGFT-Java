@@ -7,11 +7,7 @@ public class Pessoa {
         this.nome = nome;
     }
 
-    public String apresentar() {
-        return "Sou " + nome + ", " + obterProfissao() + ".";
-    }
-
-    protected String obterProfissao() {
-        return "uma pessoa";
+    public void apresentar() {
+        System.out.println("Sou " + nome + ".");
     }
 }

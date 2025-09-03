@@ -9,6 +9,6 @@ public class Main {
         Pessoa pessoa = new Professor("Sofia", "Matemática");
 
         // Chamando o método apresentar e exibindo o resultado
-        System.out.println(pessoa.apresentar());
+        pessoa.apresentar();
     }
 }
